@@ -3,7 +3,7 @@
 //@route GET api/users/profile
 //access Private
 
-export const getUserProfile =  (req, res) => {
+export const getUserProfile = (req, res) => {
     const user = {
         name: 'Alex',
         age: 21,
